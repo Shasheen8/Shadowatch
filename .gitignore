@@ -1,2 +1,18 @@
 logs/
 *.pyc
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore system files
+.DS_Store
+.idea/
+*.iml
+
+# Ignore extracted directories
+/config/elasticsearch/elasticsearch-*
+/config/kibana/kibana-*
+/config/logstash/logstash-*
+/config/filebeat/filebeat-*
